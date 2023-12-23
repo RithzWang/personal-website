@@ -45,14 +45,14 @@ p {
 .social-icon {
     width: 40px;
     height: 40px;
-    margin: 0 3px;
+    margin: 0 7px;
     background-size: cover;
     transition: opacity 0.3s ease; /* Add transition effect for smooth opacity change */
 }
 
 .social-icon:hover,
 .social-icon.clicked {
-    opacity: 0.3; /* Change opacity on hover and when clicked */
+    opacity: 0.7; /* Change opacity on hover and when clicked */
 }
 
 .discord {
