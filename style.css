@@ -52,7 +52,7 @@ p {
 
 .social-icon:hover,
 .social-icon.clicked {
-    opacity: 0.7; /* Change opacity on hover and when clicked */
+    opacity: 0.3; /* Change opacity on hover and when clicked */
 }
 
 .discord {
