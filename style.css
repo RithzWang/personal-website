@@ -56,20 +56,19 @@ p {
 }
 
 .discord {
-    background-image: url('discord-icon.png');
+    background-image: url('pictures/discord-icon.png');
 }
 
 .instagram {
-    background-image: url('instagram-icon.png');
+    background-image: url('pictures/instagram-icon.png');
 }
 
 .spotify {
-    background-image: url('spotify-icon.png');
+    background-image: url('pictures/spotify-icon.png');
 }
 
 .brawlstars {
-  background-image:
-url('brawlstars-icon.png');
+  background-image: url('pictures/brawlstars-icon.png');
 }
 
 footer {
