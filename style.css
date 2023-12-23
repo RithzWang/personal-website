@@ -45,7 +45,7 @@ p {
 .social-icon {
     width: 40px;
     height: 40px;
-    margin: 0 8px;
+    margin: 0 7px;
     background-size: cover;
     transition: opacity 0.3s ease; /* Add transition effect for smooth opacity change */
 }
