@@ -29,25 +29,44 @@ h1, p {
 h1 {
     font-family: 'Lilita One', cursive; /* Set the font-family to Lilita One */
     font-weight: normal; /* Set the text to normal weight (not bold) */
+        margin: 5px 0; /* Adjust the top and bottom margin as needed */
+}
+
+p.spidey-text {
+    color: #777;
+    display: flex;
+    justify-content: center;
+    font-family: 'prompt-medium', sans-serif;
+    margin: 0; /* Remove margin to reduce space */
 }
 
 p {
     color: #777; /* Set text color to grey */
     display: flex;
     justify-content: center;
+    font-family: 'prompt-medium', sans-serif; /* Change font to prompt-medium */
 }
 
+/* Add space between social icons and Spotify embed */
 .social-icons {
     display: flex;
     justify-content: center;
+    margin-bottom: 20px; /* Add margin at the bottom */
 }
 
+/* Add margin to the individual social icons */
 .social-icon {
     width: 40px;
     height: 40px;
-    margin: 0 7px;
+    margin: 0 5px; /* Adjust the margin as needed */
     background-size: cover;
-    transition: opacity 0.3s ease; /* Add transition effect for smooth opacity change */
+    transition: opacity 0.3s ease;
+}
+
+/* Add space between the social icons and the Spotify embed */
+.spotify-embed {
+    justify-content: center;
+    margin-top: 40px; /* Add margin at the top */
 }
 
 .social-icon:hover,
@@ -68,14 +87,13 @@ p {
 }
 
 .brawlstars {
-  background-image: url('pictures/brawlstars-icon.png');
+  background-image:
+url('pictures/brawlstars-icon.png');
 }
 
 footer {
     margin-top: 20px;
 }
-
-/* Add these styles at the end of your existing CSS */
 
 .profile-picture-container {
     position: relative;
@@ -103,4 +121,3 @@ footer {
         transform: scale(1.1);
     }
 }
-
