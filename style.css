@@ -27,7 +27,7 @@ h1, p {
 }
 
 h1 {
-    font-family: 'Lilita One', cursive; /* Set the font-family to Lilita One */
+    font-family: 'Lora', serif; /* Set the font-family to Lora */
     font-weight: normal; /* Set the text to normal weight (not bold) */
         margin: 5px 0; /* Adjust the top and bottom margin as needed */
 }
