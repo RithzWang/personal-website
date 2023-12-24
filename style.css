@@ -119,7 +119,7 @@ body {
 
 .snowflake {
     position: absolute;
-    background-color: #fff;
+    background-color: gray;
     border-radius: 50%;
     pointer-events: none;
     user-select: none;
