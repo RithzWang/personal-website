@@ -36,7 +36,7 @@ p.spidey-text {
     color: #777;
     display: flex;
     justify-content: center;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     margin: 0; /* Remove margin to reduce space */
 }
 
@@ -51,7 +51,7 @@ p {
     color: #777; /* Set text color to grey */
     display: flex;
     justify-content: center;
-    font-family: 'Ubuntu', sans-serif; /* Change font to Ubuntu */
+    font-family: 'Noto Sans', sans-serif; /* Change font to Noto Sans */
 }
 
 /* Add space between social icons and Spotify embed */
