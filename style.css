@@ -28,7 +28,7 @@ h1, p {
 
 h1 {
     font-family: 'Ubuntu', sans-serif; /* Set the font-family to Ubuntu */
-    font-weight: normal; /* Set the text to normal weight (not bold) */
+    font-weight: bold; /* Set the text to normal weight (not bold) */
         margin: 5px 0; /* Adjust the top and bottom margin as needed */
 }
 
