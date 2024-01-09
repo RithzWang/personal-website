@@ -28,4 +28,36 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     generateSnowflakes();
+
+// Add long press event for the "RithzWang" text
+    const copyTextElement = document.getElementById("copyText");
+
+    let longPressTimer;
+    const longPressDuration = 1000; // Adjust the duration as needed (in milliseconds)
+
+    copyTextElement.addEventListener("mousedown", function () {
+        longPressTimer = setTimeout(function () {
+            copyToClipboard("IG: r.ithwan");
+        }, longPressDuration);
+    });
+
+    copyTextElement.addEventListener("mouseup", function () {
+        clearTimeout(longPressTimer);
+    });
+
+    copyTextElement.addEventListener("mouseleave", function () {
+        clearTimeout(longPressTimer);
+    });
+
+    function copyToClipboard(text) {
+        const tempElement = document.createElement("textarea");
+        tempElement.value = text;
+        document.body.appendChild(tempElement);
+        tempElement.select();
+        document.execCommand("copy");
+        document.body.removeChild(tempElement);
+        console.log("Text copied to clipboard:", text);
+    }
+});
+
 });
