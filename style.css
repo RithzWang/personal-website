@@ -6,6 +6,7 @@ body {
     text-align: center;
     background-color: #16151B; /* Dark grey background color */
     color: #fff; /* Set text color to white for better visibility */
+    user-select: none;
 }
 
 header {
