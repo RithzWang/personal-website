@@ -94,6 +94,10 @@ p {
     background-image: url('pictures/spotify-icon.png');
 }
 
+.duolingo {
+  background-image: url('pictures/duolingo-logo.png');
+}
+
 .brawlstars {
   background-image: url('pictures/brawlstars-logo.png');
 }
