@@ -30,7 +30,7 @@ h1, p {
 h1 {
     font-family: 'Ubuntu', sans-serif; /* Set the font-family to Ubuntu */
     font-weight: bold; /* Set the text to normal weight (not bold) */
-        margin: 5px 0; /* Adjust the top and bottom margin as needed */
+        margin: 7px 0; /* Adjust the top and bottom margin as needed */
 }
 
 p.spidey-text {
