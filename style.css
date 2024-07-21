@@ -83,15 +83,19 @@ p {
 }
 
 .discord {
-    background-image: url('pictures/discord-icon.png');
+    background-image: url('pictures/discord-logo.png');
 }
 
 .instagram {
-    background-image: url('pictures/instagram-icon.png');
+    background-image: url('pictures/insta-logo.png');
 }
 
 .spotify {
-    background-image: url('pictures/spotify-icon.png');
+    background-image: url('pictures/spotify-logo.png');
+}
+
+.tiktok {
+    background-image: url('pictures/tiktok-logo.png');
 }
 
 .brawlstars {
