@@ -124,7 +124,7 @@ body {
 
 .snowflake {
     position: absolute;
-    background-color: gray;
+    background-color: white;
     border-radius: 50%;
     pointer-events: none;
     user-select: none;
