@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     function generateSnowflakes() {
-        setInterval(createSnowflake, 50); // Decreased interval for more snowflakes
+        setInterval(createSnowflake, 55); // Decreased interval for more snowflakes
     }
 
     generateSnowflakes();
