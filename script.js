@@ -1,7 +1,7 @@
 // script.js
 
 document.addEventListener("DOMContentLoaded", function () {
-    const snowfallContainer = document.getElementById("snowfall");
+    const snowfallContainer = document.getElementById("snowfalls");
 
     function createSnowflake() {
         const snowflake = document.createElement("div");
@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     function generateSnowflakes() {
-        setInterval(createSnowflake, 55); // Decreased interval for more snowflakes
+        setInterval(createSnowflake, 50); // Decreased interval for more snowflakes
     }
 
     generateSnowflakes();
