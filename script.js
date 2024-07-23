@@ -1,7 +1,7 @@
 // script.js
 
 document.addEventListener("DOMContentLoaded", function () {
-    const snowfallContainer = document.getElementById("snowfalls");
+    const snowfallContainer = document.getElementById("snowfall");
 
     function createSnowflake() {
         const snowflake = document.createElement("div");
