@@ -8,7 +8,7 @@ body {
     color: #fff; /* Set text color to white for better visibility */
     user-select: none;
 
-    background-image: url('pictures/background.jpeg');
+    background-image: url('pictures/background.jpg');
     background-size: cover; /* This makes sure the image covers the entire screen */
     background-position: center; /* Centers the image */
     background-attachment: fixed; /* Keeps the background static when scrolling */
