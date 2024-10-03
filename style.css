@@ -4,7 +4,7 @@ body {
     font-family: 'Noto Sans', sans-serif;
     margin: 20px 0; /* Added space at the top */
     text-align: center;
-    background-color: #16151B; /* Dark grey background color */
+    /* background-color: #16151B;  Dark grey background color */
     color: #fff; /* Set text color to white for better visibility */
     user-select: none;
 }
