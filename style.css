@@ -2,19 +2,18 @@
 
 body {
     font-family: 'Noto Sans', sans-serif;
-    margin: 20px 0; /* Added space at the top */
+    padding: 20px 0; /* Adds space inside the body, instead of pushing it away from the edges */
     text-align: center;
-    /* background-color: #16151B;  Dark grey background color */
-    color: #fff; /* Set text color to white for better visibility */
-    user-select: none;
-
-    background-image: url('pictures/background.jpg');
-    background-size: cover; /* This makes sure the image covers the entire screen */
-    background-position: center; /* Centers the image */
-    background-attachment: fixed; /* Keeps the background static when scrolling */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
-
+    color: #fff; /* White text for better visibility */
+    user-select: none; /* Prevents text selection */
+    
+    background-image: url('pictures/background.jpg'); /* Correct image path */
+    background-size: cover; /* Ensure the image covers the entire screen */
+    background-position: center; /* Center the background image */
+    background-attachment: fixed; /* Keep background static when scrolling */
+    background-repeat: no-repeat; /* Prevents repetition of the background image */
 }
+
 
 header {
     margin-bottom: 20px;
