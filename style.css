@@ -7,7 +7,7 @@ body {
     color: #fff; /* White text for better visibility */
     user-select: none; /* Prevents text selection */
     
-    background-image: url('pictures/background.jpg'); /* Correct image path */
+    background-image: url('pictures/background2.jpg'); /* Correct image path */
     background-size: cover; /* Ensure the image covers the entire screen */
     background-position: center; /* Center the background image */
     background-attachment: fixed; /* Keep background static when scrolling */
