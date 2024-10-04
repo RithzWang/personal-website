@@ -107,15 +107,15 @@ footer {
     padding: 10px 25px; /* Padding inside the button */
     font-size: 18px; /* Adjust font size */
     border-radius: 5px; /* Rounded corners */
-    border: 2px solid #1D1D1D; /* Border for 3D effect */
-    box-shadow: 0px 4px #101010; /* Shadow for depth */
+    border: 2px solid #2A2A2A; /* Border for 3D effect */
+    box-shadow: 0px 4px #1D1D1D; /* Shadow for depth */
     text-decoration: none; /* Remove underline */
     font-weight: bold;
 }
 
 .add-friend-button:hover {
-    background-color: #1D1D1D; /* Change background on hover */
-    box-shadow: 0px 2px #101010; /* Lift button on hover */
+    background-color: #2A2A2A; /* Change background on hover */
+    box-shadow: 0px 2px #1D1D1D; /* Lift button on hover */
 }
 
 .add-friend-button:active {
