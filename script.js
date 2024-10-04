@@ -8,3 +8,15 @@ document.querySelectorAll('.social-icons a').forEach(icon => {
     });
 });
 
+<script>
+    function toggleDropdown() {
+        var dropdown = document.getElementById("songDropdown");
+        if (dropdown.style.display === "none") {
+            dropdown.style.display = "block";
+        } else {
+            dropdown.style.display = "none";
+        }
+    }
+</script>
+
+
