@@ -19,8 +19,14 @@ async function fetchDiscordStatus() {
 
         if (data.success) {
             const activities = data.data.activities;
-            activityElement.textContent = activities.length > 0 ? 
-                `Current activity: ${activities[0].name}` : "No current activity";
+            const spotifyActivity = activities.find(activity => activity.type === 2); // type 2 is for Spotify
+
+            if (spotifyActivity) {
+                const { details, state } = spotifyActivity; // details = song, state = artist
+                activityElement.textContent = `Listening to: ${details} by ${state}`;
+            } else {
+                activityElement.textContent = "No current activity";
+            }
         }
     } catch (error) {
         activityElement.textContent = "Error fetching status";
