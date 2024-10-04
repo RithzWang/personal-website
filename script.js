@@ -6,17 +6,3 @@ document.querySelectorAll('.social-icons a').forEach(icon => {
         }, 200);
     });
 });
-
-const toggleButton = document.getElementById('toggleButton');
-const pictureContent = document.getElementById('pictureContent');
-
-toggleButton.addEventListener('click', function() {
-    if (pictureContent.classList.contains('hidden')) {
-        pictureContent.classList.remove('hidden');
-        pictureContent.classList.add('visible');
-    } else {
-        pictureContent.classList.remove('visible');
-        pictureContent.classList.add('hidden');
-    }
-});
-
