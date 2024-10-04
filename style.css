@@ -74,7 +74,7 @@ p {
     border-radius: 50%; /* Makes the frame circular */
     background-color: rgba(255, 255, 255, 0.2); /* Optional background color */
     line-height: 39px; /* Center icon vertically */
-    margin-bottom: 35px; /* Adds space between the icons and the button */
+    margin-bottom: 30px; /* Adds space between the icons and the button */
 }
 }
 
