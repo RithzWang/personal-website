@@ -116,31 +116,23 @@ footer {
 
 
 
-button {
-  background-color: grey; /* Discord-like blue */
-  border: none;
-  border-radius: 8px;
-  padding: 10px 20px;
-  color: white;
-  font-size: 16px;
-  font-family: "Helvetica Neue", Arial, sans-serif;
-  cursor: pointer;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-  transition: background-color 0.3s ease, transform 0.2s ease;
+.toggle-container {
+  position: relative;
 }
 
-button:hover {
-  background-color: #4752C4; /* Darker blue on hover */
+.toggle-content {
+  display: none; /* Initially hidden */
+  position: absolute;
+  top: 100%; /* Position below the button */
+  left: 0;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
 }
 
-button:active {
-  transform: scale(0.98); /* Button press effect */
-}
-
-img {
-  margin-top: 20px;
-  border-radius: 8px; /* Optional: rounded corners for the image */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for the image */
+.toggle-button:hover + .toggle-content, 
+.toggle-content:hover {
+  display: block; /* Show on hover */
 }
 
 
