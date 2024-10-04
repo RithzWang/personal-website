@@ -98,6 +98,30 @@ footer {
 /* --------- */
 
 
+.drop-picture-container {
+    text-align: center;
+}
+
+#pictureContent {
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+    max-height: 0; /* Start with the image hidden */
+}
+
+#pictureContent img {
+    width: 100%; /* Adjust size as needed */
+}
+
+.hidden {
+    max-height: 0; /* Hide the content */
+}
+
+.visible {
+    max-height: 500px; /* Adjust height based on image size */
+}
+
+
+
 
 /* ---- */
 
