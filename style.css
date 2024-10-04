@@ -39,6 +39,10 @@ h1 {
         margin: 7px 0; /* Adjust the top and bottom margin as needed */
 }
 
+a1 {
+    font-family: 'Ubuntu', sans-serif; /* Set the font-family to Ubuntu */
+}
+
 p.spidey-text {
     color: #777;
     display: flex;
