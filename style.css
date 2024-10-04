@@ -63,12 +63,12 @@ p {
 
 .social-icons a {
     color: #fff; /* Change icon color */
-    margin: 0 4px; /* Space between icons */
-    font-size: 20px; /* Adjust icon size to fit within 38x38px */
+    margin: 0 3px; /* Space between icons */
+    font-size: 22px; /* Adjust icon size to fit within 38x38px */
     text-decoration: none; /* Remove underline */
     display: inline-block; /* Enable width/height settings */
-    width: 38px; /* Width of circular frame */
-    height: 38px; /* Height of circular frame */
+    width: 39px; /* Width of circular frame */
+    height: 39px; /* Height of circular frame */
     border-radius: 50%; /* Makes the frame circular */
     background-color: rgba(255, 255, 255, 0.2); /* Optional background color */
     line-height: 38px; /* Center icon vertically */
