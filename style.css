@@ -5,7 +5,7 @@ body {
     padding: 20px 0; /* Adds space inside the body, instead of pushing it away from the edges */
     text-align: center;
     color: #fff; /* White text for better visibility */
-    user-select: none; /* Prevents text selection */
+   /* user-select: none;  Prevents text selection */
     
     background-image: url('pictures/blackbees.jpg'); /* Correct image path */
     background-size: cover; /* Ensure the image covers the entire screen */
