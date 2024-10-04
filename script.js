@@ -23,7 +23,7 @@ async function fetchDiscordStatus() {
 
             if (spotifyActivity) {
                 const { details, state } = spotifyActivity; // details = song, state = artist
-                activityElement.textContent = `Listening to: ${details} by ${state}`;
+                activityElement.textContent = `<i class="fa-solid fa-headphones"></i> Listening to: ${details} by ${state}`;
             } else {
                 activityElement.textContent = "No current activity";
             }
