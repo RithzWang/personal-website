@@ -49,12 +49,6 @@ p.spidey-text {
     margin: 0; /* Remove margin to reduce space */
 }
 
-p.copyright {
-    color: #777; /* Set text color to grey */
-    display: flex;
-    justify-content: center;
-    font-family: 'Noto Sans', sans-serif;
-}
 
 p {
     color: #777; /* Set text color to grey */
@@ -97,6 +91,10 @@ p {
 
 footer {
     margin-top: 20px;
+    color: #777; /* Set text color to grey */
+    display: flex;
+    justify-content: center;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 /* --------- */
