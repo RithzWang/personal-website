@@ -50,11 +50,10 @@ p.spidey-text {
 }
 
 p.copyright {
-    font-family: 'Noto Sans', sans-serif;
     color: #777; /* Set text color to grey */
     display: flex;
     justify-content: center;
-    font-family: 'Lora', serif; /* Change font to Lora */
+    font-family: 'Noto Sans', sans-serif;
 }
 
 p {
