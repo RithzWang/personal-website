@@ -104,7 +104,7 @@ footer {
 
 .add-friend-button {
     display: inline-block;
-    width: 230px; /* Fixed width to ensure both buttons are the same size */
+    width: 220px; /* Fixed width to ensure both buttons are the same size */
     background-color: #545454;
     color: #fff;
     padding: 10px 25px;
