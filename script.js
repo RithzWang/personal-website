@@ -1,16 +1,8 @@
-<script>
-    function handleButtonClick(platform) {
-        console.log("Clicked on " + platform + " button!");
-
-        // Get the specific social icon that was clicked
-        const clickedIcon = event.target;
-
-        // Add the 'clicked' class to trigger the animation
-        clickedIcon.classList.add('clicked');
-
-        // Remove the 'clicked' class after the animation ends (0.3s)
-        setTimeout(function() {
-            clickedIcon.classList.remove('clicked');
-        }, 300);
-    }
-</script>
+document.querySelectorAll('.social-icons a').forEach(icon => {
+    icon.addEventListener('click', function () {
+        this.classList.add('clicked'); // Add class on click
+        setTimeout(() => {
+            this.classList.remove('clicked'); // Remove class after 200ms
+        }, 200);
+    });
+});
