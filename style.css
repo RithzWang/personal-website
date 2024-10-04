@@ -68,14 +68,12 @@ p {
     margin-bottom: 20px; /* Add margin at the bottom */
 }
 
-/* Add margin to the individual social icons */
-.social-icon {
-    width: 37px;
-    height: 37px;
-    margin: 0 4px; /* Adjust the margin as needed */
-    background-size: cover;
-    transition: opacity 0.3s ease;
-}
+
+
+
+
+
+
 
 /* Add space between the social icons and the Spotify embed */
 .spotify-embed {
