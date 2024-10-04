@@ -104,29 +104,30 @@ footer {
 
 .add-friend-button {
     display: inline-block;
-    background-color: #545454; /* Default background */
-    color: #fff; /* White text */
+    width: 250px; /* Fixed width to ensure both buttons are the same size */
+    background-color: #545454;
+    color: #fff;
     padding: 10px 25px;
     font-size: 18px;
     border-radius: 5px;
-    border: 2px solid #2A2A2A; 
+    border: 2px solid #2A2A2A;
     box-shadow: 0px 4px #1D1D1D;
     text-decoration: none;
     font-weight: bold;
-    transition: background-color 0.3s ease; /* Smooth transition */
-    margin-bottom: 10px;
+    text-align: center;
 }
 
 .add-friend-button:hover {
-    background-color: #2A2A2A; /* On hover */
+    background-color: #2A2A2A;
     box-shadow: 0px 2px #1D1D1D;
 }
 
 .add-friend-button:active {
-    background-color: #1D1D1D; /* On click */
+    background-color: #1D1D1D;
     transform: translateY(2px);
     box-shadow: 0px 1px #101010;
 }
+
 
 
 
