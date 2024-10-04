@@ -61,26 +61,19 @@ p {
     font-family: 'Noto Sans', sans-serif; /* Change font to Noto Sans */
 }
 
-.social-icons {
-    margin: 20px 0;
-}
-
 .social-icons a {
     color: #fff; /* Change icon color */
-    margin: 0 5px; /* Space between icons */
-    font-size: 15px; /* Adjust icon size */
+    margin: 0 4px; /* Space between icons */
+    font-size: 20px; /* Adjust icon size to fit within 38x38px */
     text-decoration: none; /* Remove underline */
     display: inline-block; /* Enable width/height settings */
     width: 38px; /* Width of circular frame */
     height: 38px; /* Height of circular frame */
     border-radius: 50%; /* Makes the frame circular */
     background-color: rgba(255, 255, 255, 0.2); /* Optional background color */
-    line-height: 60px; /* Center icon vertically */
+    line-height: 38px; /* Center icon vertically */
 }
 
-.social-icons a:hover {
-    background-color: rgba(255, 255, 255, 0.3); /* Hover effect */
-}
 
 
 
