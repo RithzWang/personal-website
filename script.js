@@ -19,11 +19,11 @@ async function fetchDiscordStatus() {
 
         if (data.success) {
             const activities = data.data.activities;
-            const spotifyActivity = activities.find(activity => activity.type === 2); // type 2 is for Spotify
+            const spotifyActivity = activities.find(activity => activity.type === 2); // type 2 is Spotify
 
             if (spotifyActivity) {
-                const { details, state } = spotifyActivity; // details = song, state = artist
-                activityElement.textContent = `<i class="fa-solid fa-headphones"></i> Listening to: ${details} by ${state}`;
+                const { details, state } = spotifyActivity;
+                activityElement.innerHTML = `<i class="fa-solid fa-headphones"></i> Listening to: ${details} by ${state}`;
             } else {
                 activityElement.textContent = "No current activity";
             }
