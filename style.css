@@ -114,6 +114,7 @@ footer {
     text-decoration: none;
     font-weight: bold;
     transition: background-color 0.3s ease; /* Smooth transition */
+    margin-bottom: 10px;
 }
 
 .add-friend-button:hover {
