@@ -131,11 +131,14 @@ footer {
 
 
 #status {
-    background-color: #7289da;
-    color: white;
-    padding: 20px;
-    border-radius: 10px;
+    background-color: transparent;
+    padding: 0;
+    border-radius: 0;
+    color: #ffffff; /* Or another color that fits your design */
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
 }
+
 
 #status p {
     font-size: 18px;
