@@ -84,6 +84,12 @@ p {
 }
 
 
+.social-icons a.clicked {
+    transform: scale(0.9); /* Scale down when clicked */
+    transition: transform 0.2s ease; /* Smooth transition */
+}
+
+
 
 footer {
     margin-top: 20px;
