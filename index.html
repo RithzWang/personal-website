@@ -43,13 +43,10 @@
        <!-- <a href="https://brawlstats.com/profile/8QU09VJLU" target="_blank" onclick="handleButtonClick('Brawl Stars')"><div class="social-icon brawlstars"></div></a> -->
     </div>
 
-<div class="dropdown">
-    <button id="dropdownButton">Brawl Stars</button>
-    <div id="dropdownContent" class="dropdown-content" style="display: none;">
-      <a href="#" id="toggleImageOption">Toggle Image</a>
-    </div>
-  </div>
-  <img id="toggleImage" src="pictures/mybs.jpg" alt="#8QU09VJLU" style="display:none; width: 200px; height: auto;"/>
+<button class="custom-button" onclick="showImage()">Brawl Stars Stats</button>
+<div id="image-container" style="display: none;">
+  <img src="pictures/mybs.jpg" alt="#8QU09VJLU" width="300" height="200">
+</div>
 
 
 <script src="script.js"></script>
