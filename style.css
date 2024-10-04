@@ -67,7 +67,7 @@ p {
 
 .social-icons a {
     color: #fff; /* Change icon color */
-    margin: 0 10px; /* Space between icons */
+    margin: 0 5px; /* Space between icons */
     font-size: 15px; /* Adjust icon size */
     text-decoration: none; /* Remove underline */
     display: inline-block; /* Enable width/height settings */
