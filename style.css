@@ -1,99 +1,69 @@
-/* style.css */
-
+/* Global styles */
 body {
     font-family: 'Noto Sans', sans-serif;
-    padding: 20px 0; /* Adds space inside the body, instead of pushing it away from the edges */
+    padding: 20px 0;
     text-align: center;
-    color: #fff; /* White text for better visibility */
-   /* user-select: none;  Prevents text selection */
-    
-    background-image: url('pictures/blackbees.jpg'); /* Correct image path */
-    background-size: cover; /* Ensure the image covers the entire screen */
-    background-position: center; /* Center the background image */
-    background-attachment: fixed; /* Keep background static when scrolling */
-    background-repeat: no-repeat; /* Prevents repetition of the background image */
+    color: #fff;
+    background-image: url('pictures/blackbees.jpg'); /* Ensure the image path is correct */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0; /* Reset margin */
+    display: flex; /* Ensure it centers content */
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height for centering */
 }
 
-
+/* Header styles */
 header {
     margin-bottom: 20px;
-    margin-top: 45px; /* Added space at the top */
+    margin-top: 45px;
 }
 
+/* Profile picture styles */
 .profile-picture {
     width: 120px;
     height: 120px;
-    border-radius: 50%; /* Create a circular frame */
-    overflow: hidden; /* Ensure content stays within the circular frame */
+    border-radius: 50%;
+    overflow: hidden;
     background-size: cover;
-    margin: 0 auto; /* Center the profile picture */
+    margin: 0 auto;
 }
 
+/* Typography styles */
 h1, p {
     margin: 10px 0;
 }
 
 h1 {
-    font-family: 'Ubuntu', sans-serif; /* Set the font-family to Ubuntu */
-    font-weight: bold; /* Set the text to normal weight (not bold) */
-        margin: 7px 0; /* Adjust the top and bottom margin as needed */
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
 }
 
-p.spidey-text {
+p.spidey-text, p.copyright {
     color: #777;
     display: flex;
     justify-content: center;
-    font-family: 'Noto Sans', sans-serif;
-    margin: 0; /* Remove margin to reduce space */
+    margin: 0; /* Remove margin */
 }
 
-p.copyright {
-    color: #777; /* Set text color to grey */
-    display: flex;
-    justify-content: center;
-    font-family: 'Lora', serif; /* Change font to Lora */
-}
-
-p {
-    color: #777; /* Set text color to grey */
-    display: flex;
-    justify-content: center;
-    font-family: 'Noto Sans', sans-serif; /* Change font to Noto Sans */
-}
-
-/* Add space between social icons and Spotify embed */
-.social-icons {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px; /* Add margin at the bottom */
-}
-
-
-/* General body styling */
-body {
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #111;
-}
-
+/* Social icons container */
 .social-container {
     display: flex;
-    gap: 20px;
+    justify-content: center;
+    gap: 20px; /* Space between icons */
+    margin-bottom: 20px; /* Space below icons */
 }
 
+/* Individual social icon styles */
 .social-icon {
     text-decoration: none;
-    font-size: 40px;
-    color: #fff;
+    font-size: 40px; /* Size of the icons */
+    color: #fff; /* Default icon color */
     position: relative;
     transition: color 0.3s ease-in-out;
-}
-
-.social-icon i {
-    transition: all 0.3s ease-in-out;
 }
 
 /* Glowing effect */
@@ -117,54 +87,19 @@ body {
 }
 
 .social-icon:hover {
-    color: #f39c12;
+    color: #f39c12; /* Change color on hover */
 }
 
 .social-icon:hover i {
     filter: drop-shadow(0 0 10px #f39c12) drop-shadow(0 0 20px #f39c12);
 }
 
-
-
-.discord {
-    background-image: url('pictures/discord-logos.png');
-}
-
-.instagram {
-    background-image: url('pictures/insta-logos.png');
-}
-
-.spotify {
-    background-image: url('pictures/spotify-logos.png');
-}
-
-.tiktok {
-    background-image: url('pictures/tiktok-logos.png');
-}
-
-.brawlstars {
-  background-image: url('pictures/brawlstars-logo.png');
-}
-
+/* Footer styles */
 footer {
     margin-top: 20px;
 }
 
-/* --------- */
-
-
-
-
-
-
-
-/* ------- */
-
-body {
-    margin: 1;
-    overflow: hidden;
-}
-
+/* Additional styles */
 .snowfall-container {
     position: fixed;
     top: 0;
@@ -174,6 +109,7 @@ body {
     pointer-events: none;
 }
 
+/* Snowflake animations */
 .snowflake {
     position: absolute;
     background-color: white;
@@ -185,34 +121,5 @@ body {
 @keyframes fall {
     to {
         transform: translateY(100vh);
-    }
-}
-
-/* ---- */
-
-.profile-picture-container {
-    position: relative;
-    display: inline-block;
-}
-
-.profile-picture::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: 2px solid #fff; /* Adjust border style as needed */
-    border-radius: 50%;
-    box-sizing: border-box;
-    /* animation: pulseAnimation 2s infinite alternate;  Adjust animation properties as needed */
-}
-
-@keyframes pulseAnimation {
-    from {
-        transform: scale(1);
-    }
-    to {
-        transform: scale(1.1);
     }
 }
