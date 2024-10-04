@@ -41,6 +41,7 @@ h1 {
 
 a1 {
     font-family: 'Ubuntu', sans-serif; /* Set the font-family to Ubuntu */
+    user-select: none;  /* Prevents text selection */
 }
 
 p.spidey-text {
