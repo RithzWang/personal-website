@@ -1,12 +1,24 @@
-const toggleButton = document.getElementById('toggleButton');
+const dropdownButton = document.getElementById('dropdownButton');
+const dropdownContent = document.getElementById('dropdownContent');
+const toggleImageOption = document.getElementById('toggleImageOption');
 const toggleImage = document.getElementById('toggleImage');
 
-toggleButton.addEventListener('click', function() {
+// Toggle the dropdown menu
+dropdownButton.addEventListener('click', function() {
+  if (dropdownContent.style.display === 'none') {
+    dropdownContent.style.display = 'block';
+  } else {
+    dropdownContent.style.display = 'none';
+  }
+});
+
+// Toggle the image visibility when an option is clicked
+toggleImageOption.addEventListener('click', function() {
   if (toggleImage.style.display === 'none') {
     toggleImage.style.display = 'block';
-    toggleButton.textContent = 'Hide Image';
+    toggleImageOption.textContent = 'Hide Image';
   } else {
     toggleImage.style.display = 'none';
-    toggleButton.textContent = 'Show Image';
+    toggleImageOption.textContent = 'Show Image';
   }
 });
