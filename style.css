@@ -83,10 +83,22 @@ p {
     margin-top: 40px; /* Add margin at the top */
 }
 
+.social-icon {
+    width: 50px; /* Set a fixed width */
+    height: 50px; /* Set a fixed height */
+    display: inline-block; /* Ensure it's treated like a block element */
+    background-color: #f0f0f0; /* Example background colour */
+    text-align: center; /* Centre content like icons or text inside */
+    line-height: 50px; /* Vertically centre the content */
+    border-radius: 50%; /* This makes the icon circular */
+    transition: opacity 0.3s ease; /* Smooth transition for hover effect */
+}
+
 .social-icon:hover,
 .social-icon.clicked {
     opacity: 0.7; /* Change opacity on hover and when clicked */
 }
+
 
 .discord {
     background-image: url('pictures/discord-logos.png');
