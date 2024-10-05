@@ -41,7 +41,7 @@ async function getSpotifyNowPlaying() {
                     </div>
                 `;
             } else {
-                document.getElementById('spotify-player').innerHTML = `<p>Nothing is playing at the moment.</p>`;
+                document.getElementById('spotify-player').innerHTML = `<p>Loading...</p>`;
             }
         }
     } catch (error) {
