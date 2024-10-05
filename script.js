@@ -10,7 +10,7 @@ document.querySelectorAll('.social-icons a').forEach(icon => {
 
 // This function will fetch the current Spotify playback using the API
 async function getSpotifyNowPlaying() {
-    const token = 'YOUR_SPOTIFY_ACCESS_TOKEN'; // Replace with your Spotify access token
+    const token = 'fc168355f96349e19c80b3557df3e80c'; // Replace with your Spotify access token
 
     try {
         const response = await fetch('https://api.spotify.com/v1/me/player/currently-playing', {
