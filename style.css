@@ -131,61 +131,6 @@ footer {
 
 
 
-/* Extend styles for the Spotify Now Playing button */
-.spotify-now-playing {
-    display: block;
-    width: 220px; /* Same width as other buttons */
-    background-color: #1DB954; /* Spotify green */
-    color: #fff;
-    padding: 10px 25px;
-    font-size: 18px;
-    border-radius: 5px;
-    border: 2px solid #14833b; /* Darker Spotify green border */
-    box-shadow: 0px 4px #107731; /* Darker shadow */
-    text-decoration: none;
-    text-align: center;
-    justify-content: center;
-    margin-bottom: 10px;
-}
-
-.spotify-now-playing:hover {
-    background-color: #14833b; /* Darker green on hover */
-    box-shadow: 0px 2px #107731;
-}
-
-.spotify-now-playing:active {
-    background-color: #107731; /* Even darker green when active */
-    transform: translateY(2px);
-    box-shadow: 0px 1px #0c5d29;
-}
-
-/* Style the content inside the Spotify Now Playing button */
-.spotify-track {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.spotify-track img {
-    width: 40px; /* Smaller album art */
-    height: 40px;
-    margin-right: 10px;
-    border-radius: 5px;
-}
-
-.spotify-track .track-info {
-    text-align: left;
-}
-
-.spotify-track .track-info p {
-    margin: 5px 0;
-    font-size: 14px; /* Slightly smaller text */
-    font-family: 'Noto Sans', sans-serif;
-}
-
-.spotify-track .track-info strong {
-    font-size: 16px; /* Stronger emphasis on track name */
-}
 
 
 
