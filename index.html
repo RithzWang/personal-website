@@ -55,39 +55,6 @@
 " class="add-friend-button">Add Me in Roblox</a> -->
 
 
-<script>
-  const cities = [
-    { name: 'New York', timeZone: 'America/New_York' },
-    { name: 'London', timeZone: 'Europe/London' },
-    { name: 'Cairo', timeZone: 'Africa/Cairo' },
-    { name: 'Bangkok', timeZone: 'Asia/Bangkok' },
-    { name: 'Tokyo', timeZone: 'Asia/Tokyo' }
-  ];
-
-  function updateClocks() {
-    const container = document.getElementById('worldClock');
-    container.innerHTML = '';
-    cities.forEach(city => {
-      const now = new Date().toLocaleTimeString('en-US', {
-        timeZone: city.timeZone,
-        hour: '2-digit',
-        minute: '2-digit',
-        second: '2-digit'
-      });
-      const clockDiv = document.createElement('div');
-      clockDiv.className = 'clock';
-      clockDiv.innerHTML = `
-        <div class="city">${city.name}</div>
-        <div class="time">${now}</div>
-      `;
-      container.appendChild(clockDiv);
-    });
-  }
-
-  updateClocks();
-  setInterval(updateClocks, 1000);
-</script>
-
 
 
 <script src="script.js"></script>
