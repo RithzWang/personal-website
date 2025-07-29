@@ -38,26 +38,27 @@ h1 {
     font-family: 'Ubuntu', sans-serif; /* Set the font-family to Ubuntu */
     font-weight: bold; /* Set the text to normal weight (not bold) */
         margin: 7px 0; /* Adjust the top and bottom margin as needed */
-      background: linear-gradient(270deg, #ff00cc, #00ffff, #ff00cc);
-      background-size: 200% 200%;
+      background: linear-gradient(120deg, white, yellow, white);
+      background-size: 200% auto;
+      background-position: left center;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
-      animation: glowAnimation 4s linear infinite;
+      animation: waveGlow 3s linear infinite;
       text-shadow:
-        0 0 5px #fff,
         0 0 10px #fff,
-        0 0 20px #0ff,
-        0 0 40px #0ff;
+        0 0 20px #ffff66,
+        0 0 40px #ffff33,
+        0 0 80px #ffff00;
     }
 
-    @keyframes glowAnimation {
+    @keyframes waveGlow {
       0% {
-        background-position: 0% 50%;
+        background-position: 0% center;
       }
       100% {
-        background-position: 100% 50%;
+        background-position: 100% center;
       }
-}
+    }
 
 
 p.spidey-text {
