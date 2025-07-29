@@ -38,6 +38,25 @@ h1 {
     font-family: 'Ubuntu', sans-serif; /* Set the font-family to Ubuntu */
     font-weight: bold; /* Set the text to normal weight (not bold) */
         margin: 7px 0; /* Adjust the top and bottom margin as needed */
+      background: linear-gradient(270deg, #ff00cc, #00ffff, #ff00cc);
+      background-size: 200% 200%;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: glowAnimation 4s linear infinite;
+      text-shadow:
+        0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 20px #0ff,
+        0 0 40px #0ff;
+    }
+
+    @keyframes glowAnimation {
+      0% {
+        background-position: 0% 50%;
+      }
+      100% {
+        background-position: 100% 50%;
+      }
 }
 
 
