@@ -38,17 +38,12 @@ h1 {
     font-family: 'Ubuntu', sans-serif; /* Set the font-family to Ubuntu */
     font-weight: bold; /* Set the text to normal weight (not bold) */
         margin: 7px 0; /* Adjust the top and bottom margin as needed */
-      background: linear-gradient(120deg, white, yellow, white);
+      background: linear-gradient(120deg, orange, yellow, orange);
       background-size: 200% auto;
       background-position: left center;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       animation: waveGlow 3s linear infinite;
-      text-shadow:
-        0 0 10px #fff,
-        0 0 20px #ffff66,
-        0 0 40px #ffff33,
-        0 0 80px #ffff00;
     }
 
     @keyframes waveGlow {
