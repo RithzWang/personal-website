@@ -34,26 +34,26 @@ h1, p {
     margin: 10px 0;
 }
 
-h1 {  
-    font-family: 'Ubuntu', sans-serif; /* Set the font-family to Ubuntu */  
-    font-weight: bold; /* Set the text to normal weight (not bold) */  
-        margin: 7px 0; /* Adjust the top and bottom margin as needed */  
-      background: linear-gradient(120deg, yellow, orange, red, orange, yellow);  
-      background-size: 200% auto;  
-      background-position: left center;  
-      -webkit-background-clip: text;  
-      -webkit-text-fill-color: transparent;  
-      animation: waveGlow 3s linear infinite;  
-    }  
-  
-    @keyframes waveGlow {  
-      0% {  
-        background-position: 0% center;  
-      }  
-      100% {  
-        background-position: 100% center;  
-      }  
-    }
+h1 {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  margin: 7px 0;
+  background: linear-gradient(120deg, yellow, orange, red, orange, yellow);
+  background-size: 400% auto;
+  background-position: 0% center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: waveGlow 5s linear infinite;
+}
+
+@keyframes waveGlow {
+  0% {
+    background-position: 0% center;
+  }
+  100% {
+    background-position: 100% center;
+  }
+}
 
 
 p.spidey-text {
