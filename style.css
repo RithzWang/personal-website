@@ -38,7 +38,7 @@ h1 {
     font-family: 'Ubuntu', sans-serif; /* Set the font-family to Ubuntu */
     font-weight: bold; /* Set the text to normal weight (not bold) */
         margin: 7px 0; /* Adjust the top and bottom margin as needed */
-      background: linear-gradient(120deg, orange, yellow, orange);
+      background: linear-gradient(120deg, FFA20E, yellow, FFA20E);
       background-size: 200% auto;
       background-position: left center;
       -webkit-background-clip: text;
