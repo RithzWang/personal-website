@@ -38,8 +38,8 @@ h1, p {
 }
 
 h1 {
-  font-family: "Amiri", serif;
-  font-weight: bold;
+  font-family: "Aref Ruqaa", serif;
+  font-weight: 400;
   margin: 7px 0;
   background: linear-gradient(120deg, yellow, orange, red, orange, yellow);
   background-size: 400% auto;
