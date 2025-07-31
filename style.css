@@ -65,7 +65,8 @@ p.spidey-text {
     display: flex;
     font-weight: bold;
     justify-content: center;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Amiri Quran', serif;
+    /* font-family: 'Noto Sans', sans-serif; */
     margin: 0; /* Remove margin to reduce space */
 }
 
