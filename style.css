@@ -8,7 +8,7 @@ body {
     color: #fff; /* White text for better visibility */
    /* user-select: none;  Prevents text selection */
 
-    background: linear-gradient(to bottom, #1a1a1a, #d3d3d3); /* dark gray to light gray */
+    background: linear-gradient(to bottom, #010101, #1C1C1C); /* dark gray to light gray */
     
     /* background-image: url('pictures/blackbees.jpg'); */ /* Correct image path */
     /* background-size: cover; */ /* Ensure the image covers the entire screen */
