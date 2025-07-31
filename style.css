@@ -8,11 +8,20 @@ body {
     color: #fff; /* White text for better visibility */
    /* user-select: none;  Prevents text selection */
     
-    /* background-image: url('pictures/blackbees.jpg'); /* Correct image path */
-    background-size: cover; /* Ensure the image covers the entire screen */
-    background-position: center; /* Center the background image */
-    background-attachment: fixed; /* Keep background static when scrolling */
-    background-repeat: no-repeat; /* Prevents repetition of the background image */ */
+    /* background-image: url('pictures/blackbees.jpg'); */ /* Correct image path */
+    /* background-size: cover; */ /* Ensure the image covers the entire screen */
+    /* background-position: center; */ /* Center the background image */
+    /* background-attachment: fixed; */ /* Keep background static when scrolling */
+    /* background-repeat: no-repeat; */ /* Prevents repetition of the background image */ 
+
+
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, #2e2e2e, #d3d3d3); /* dark to light gray */
+
 }
 
 
