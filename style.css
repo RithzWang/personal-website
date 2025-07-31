@@ -73,6 +73,28 @@ p.spidey-text {
 }
 
 
+p.yousuf {
+    font-weight: bold;
+    justify-content: center;
+    font-family: 'Amiri', serif;
+background: linear-gradient(120deg, yellow, orange, red, orange, yellow);
+  background-size: 400% auto;
+  background-position: 0% center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: waveGlow 5s linear infinite;
+}
+
+@keyframes waveGlow {
+  0% {
+    background-position: 0% center;
+  }
+  100% {
+    background-position: 100% center;
+  }
+}
+
+
 p {
     color: #777; /* Set text color to grey */
     display: flex;
