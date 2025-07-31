@@ -40,6 +40,7 @@ h1, p {
 h1 {
   font-family: "Aref Ruqaa", serif;
   font-weight: 400;
+  font-size: 64px;
   margin: 7px 0;
   background: linear-gradient(120deg, yellow, orange, red, orange, yellow);
   background-size: 400% auto;
