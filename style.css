@@ -74,10 +74,9 @@ p.spidey-text {
 
 
 p.yousuf {
-    font-weight: bold;
-    justify-content: center;
-    font-family: 'Amiri', serif;
-background: linear-gradient(120deg, yellow, orange, red, orange, yellow);
+  font-family: "Amiri", serif;
+  font-weight: bold;
+  background: linear-gradient(120deg, yellow, orange, red, orange, yellow);
   background-size: 400% auto;
   background-position: 0% center;
   -webkit-background-clip: text;
